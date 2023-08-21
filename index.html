@@ -1,0 +1,911 @@
+<!DOCTYPE html>
+    <html lang="pt-br / en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--==================== UNICONS ====================-->
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+        
+        <!--==================== SWIPER CSS ====================-->
+        <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css">
+        
+        <!--==================== CSS ====================-->
+        <link rel="stylesheet" href="./assets/css/styles.css">
+
+        <title>Otavio's Portfolio</title>
+    </head>
+    <body>
+        <!--==================== HEADER ====================-->
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav_logo">Otavio Andreas</a>
+
+                <div class="nav_menu" id="nav-menu">
+                    <ul class="nav_list grid">
+                        <li class="nav_item">
+                            <a href="#home" class="nav_link active-link" id="homenav">
+                                <i class="uil uil-home nav_icon"></i>Home
+                            </a>
+                        </li>
+                        <li class="nav_item">
+                            <a href="#about" class="nav_link" id="aboutnav">
+                                <i class="uil uil-user nav_icon"></i>Sobre                        
+                            </a>
+                        </li>
+                        <li class="nav_item">
+                            <a href="#skills" class="nav_link" id="skillsnav">
+                                <i class="uil uil-file-info-alt nav_icon"></i>Habilidades                        
+                            </a>
+                        </li>
+                        <li class="nav_item">
+                            <a href="#services" class="nav_link" id="servicesnav">
+                                <i class="uil uil-suitcase-alt nav_icon"></i>Serviços
+                            </a>
+                        </li>
+                        <li class="nav_item">
+                            <a href="#portfolio" class="nav_link" id="portfolionav">
+                                <i class="uil uil-mountains-sun nav_icon"></i>Portfolio
+                        
+                            </a>
+                        </li>
+                        <li class="nav_item">
+                            <a href="#contact" class="nav_link" id="contactnav">
+                                <i class="uil uil-message nav_icon"></i>Contato
+                            </a>
+                        </li>
+                    </ul>
+                    <i class="uil uil-times nav_close" id="nav-close"></i>
+                </div>
+                <div class="nav_btns">
+                    <!--theme change button -->
+                    <i class="uil uil-moon change-theme" id="theme-button"></i>
+
+                    <div class="nav_toggle" id="nav-toggle">
+                        <i class="uil uil-apps"></i>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <!--==================== MAIN ====================-->
+        <main class="main">
+            <!--==================== HOME ====================-->
+            <section class="home section" id="home">
+                <div class="home_container container grid">
+                    <div class="home_content grid">
+                        <div class="home_social">
+                            <a href="https://www.linkedin.com/in/otavio-andreas-rosiano-b12561165/" target="_blank" class="home_social-icon">
+                                <i class="uil uil-linkedin-alt"></i>
+                            </a>
+                            <a href="https://www.instagram.com/otto_andreas/" target="_blank" class="home_social-icon">
+                                <i class="uil uil-instagram"></i>
+                            </a>
+                            <a href="https://github.com/AndreasOtavio" target="blanlk" class="home_social-icon">
+                                <i class="uil uil-github-alt"></i>                        
+                            </a>
+                        </div>
+                        <div class="home_img">
+                            <svg class="home_blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <mask id="mask0" mask-type="alpha">
+                                    <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
+                                    130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
+                                    97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
+                                    0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z" />
+                                </mask>
+                                <g mask="url(#mask0)">
+                                    <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
+                                    165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
+                                    129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
+                                    -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z" />
+                                    <image class="home_blob-img" x='14' y='-20' xlink:href="assets/img/perfil2.png"/>
+                                </g>
+                            </svg>
+                        </div>
+                        <div class="home_data">
+                            <h1 class="home_title">Olá, me chamo Otavio!</h1>
+                            <h3 class="home_subtitle">Desenvolvedor de sistemas</h3>
+                            <p class="home_description">Formado em Análise e Desenvolvimento de Sistemas pela FIAP, estou preparado para multitarefas e foco na demanda utilizando metodologias ágeis em uma equipe comprometida com entregas!</p>
+                            <a href="#contact" class="button button--flex contato_button">
+                                Contato<i class="uil uil-message button_icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="home_scroll">
+                        <a href="#about" class="home_scroll-button button--flex">
+                            <i class="uil uil-mouse-alt home_scroll-mouse"></i>
+                            <span class="home_scroll-name">Scroll down</span>
+                            <i class="uil uil-arrow-down home_scroll-arrow"></i>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== ABOUT ====================-->
+            <section class="about section" id="about">
+                <h2 class="section_title">Sobre mim</h2>
+                <span class="section_subtitle">Minha introdução</span>
+
+                <div class="about_container container grid">
+                    <img src="assets/img/about.png" alt="" class="about_img">
+                    <div class="about_data">
+                        <p class="about_description">Tenho 26 anos, adoro ler, jogar videogame, assistir filmes e descobrir novas tecnologias.
+                            Possuo bastante experiência em gestão e embora seja um novato na área da tecnologia, acredito estar preparado para qualquer desafio! Sou comunicativo, lido bem com feedbacks e sempre busco por maneiras criativas e inovadoras para resolver os problemas do dia a dia.
+                        </p>
+
+                        <div class="about_info">
+                            <div>
+                                <span class="about_info-title">24+</span>
+                                <span class="about_info-name">Cursos <br> Concluídos </span>
+                            </div>
+                            <div>
+                                <span class="about_info-title">30+</span>
+                                <span class="about_info-name"> Projetos <br> Realizados </span>
+                            </div>
+                            <div>
+                                <span class="about_info-title">06+</span>
+                                <span class="about_info-name"> Anos <br> Experiência Profissional  </span>
+                            </div>
+
+                        </div>
+                        <div class="about_buttons">
+                            <a download="" href="assets/pdf/Otavio Rosiano - Currículo2023.pdf" class= button button--flex>
+                                Download CV<i class="uil uil-download-alt button_icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== SKILLS ====================-->
+            <section class="skills section" id="skills">
+                <h2 class="section_title">Habilidades</h2>
+                <span class="section_subtitle">Meu nível técnico</span>
+
+                <div class="skills_container container grid">
+                    <div>
+                        <!--==================== SKILLS 1 ====================-->
+                        <div class="skills_content skills_open">
+                            <div class="skills_header">
+                                <i class="uil uil-brackets-curly skills_icon"></i>
+                                <div>
+                                    <h1 class="skills_titles">Habilidades como Programador</h1>
+                                    <span class="skills_subtitle">Há mais de 2 anos</span>
+                                </div>
+                                <i class="uil uil-angle-down skills_arrow"></i>
+                            </div>
+                            <div class="skills_list grid">
+                                <div class="skills_data">
+                                    <div class="skills_titles">
+                                        <h3 class="skills_name">HTML</h3>
+                                        <span class="skills_number">90%</span>
+                                    </div>
+                                    <div class="skills_bar">
+                                        <span class="skills_percentage skills_html"></span>
+                                    </div>
+                                </div>
+                        
+                                <div class="skills_data">
+                                    <div class="skills_titles">
+                                        <h3 class="skills_name">CSS</h3>
+                                        <span class="skills_number">90%</span>
+                                    </div>
+                                    <div class="skills_bar">
+                                        <span class="skills_percentage skills_css"></span>
+                                    </div>
+                                </div>
+                        
+                                <div class="skills_data">
+                                    <div class="skills_titles">
+                                        <h3 class="skills_name">Java</h3>
+                                        <span class="skills_number">70%</span>
+                                    </div>
+                                    <div class="skills_bar">
+                                        <span class="skills_percentage skills_java"></span>
+                                    </div>
+                                </div>
+                        
+                                <div class="skills_data">
+                                    <div class="skills_titles">
+                                        <h3 class="skills_name">Javascript</h3>
+                                        <span class="skills_number">80%</span>
+                                    </div>
+                                    <div class="skills_bar">
+                                        <span class="skills_percentage skills_javascript"></span>
+                                    </div>                        
+                                </div>
+                                <div class="skills_data">
+                                    <div class="skills_titles">
+                                        <h3 class="skills_name">SQL</h3>
+                                        <span class="skills_number">50%</span>
+                                    </div>
+                                    <div class="skills_bar">
+                                        <span class="skills_percentage skills_sql"></span>
+                                    </div>                        
+                                </div>
+                                <div class="skills_data">
+                                    <div class="skills_titles">
+                                        <h3 class="skills_name">React</h3>
+                                        <span class="skills_number">75%</span>
+                                    </div>
+                                    <div class="skills_bar">
+                                        <span class="skills_percentage skills_react"></span>
+                                    </div>
+                                </div>
+                                <div class="skills_data">
+                                    <div class="skills_titles">
+                                        <h3 class="skills_name">Spring Framework</h3>
+                                        <span class="skills_number">70%</span>
+                                    </div>
+                                    <div class="skills_bar">
+                                        <span class="skills_percentage skills_spring"></span>
+                                    </div>                        
+                                </div>
+
+                                <div class="skills_data">
+                                    <div class="skills_titles">
+                                        <h3 class="skills_name">Git/Github</h3>
+                                        <span class="skills_number">70%</span>
+                                    </div>
+                                    <div class="skills_bar">
+                                        <span class="skills_percentage skills_git"></span>
+                                    </div>                        
+                                </div>
+                            </div>
+                        </div>
+                        <!--==================== SKILLS 2 ====================-->
+                        <div class="skills_content skills_close">
+                            <div class="skills_header">
+                                <i class="uil uil-users-alt skills_icon"></i>
+                                <div>
+                                    <h1 class="skills_titles">Gestão</h1>
+                                    <span class="skills_subtitle">Há mais de 6 anos</span>
+                                </div>
+                                <i class="uil uil-angle-down skills_arrow"></i>
+                            </div>
+                            <div class="skills_list grid">
+                                <div class="skills_data">
+                                    <div class="skills_titles">
+                                        <h3 class="skills_name">Scrum</h3>
+                                        <span class="skills_number">100%</span>
+                                    </div>
+                                    <div class="skills_bar">
+                                        <span class="skills_percentage skills_scrum"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skills_data">
+                                    <div class="skills_titles">
+                                        <h3 class="skills_name">OKR</h3>
+                                        <span class="skills_number">75%</span>
+                                    </div>
+                                    <div class="skills_bar">
+                                        <span class="skills_percentage skills_okr"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skills_data">
+                                    <div class="skills_titles">
+                                        <h3 class="skills_name"> Kanban</h3>
+                                        <span class="skills_number">80%</span>
+                                    </div>
+                                    <div class="skills_bar">
+                                        <span class="skills_percentage skills_kanban"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skills_data">
+                                    <div class="skills_titles">
+                                        <h3 class="skills_name">Jira</h3>
+                                        <span class="skills_number">60%</span>
+                                    </div>
+                                    <div class="skills_bar">
+                                        <span class="skills_percentage skills_jira"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skills_data">
+                                    <div class="skills_titles">
+                                        <h3 class="skills_name">Trello</h3>
+                                        <span class="skills_number">80%</span>
+                                    </div>
+                                    <div class="skills_bar">
+                                        <span class="skills_percentage skills_trello"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>                                            
+                    </div>
+
+                    <div>
+                        <!--==================== SKILLS 3 ====================-->
+                        <div class="skills_content skills_close">
+                            <div class="skills_header">
+                                <i class="uil uil-box skills_icon"></i>
+                                <div>
+                                    <h1 class="skills_titles">Idiomas</h1>
+                                    <span class="skills_subtitle">Há mais de 10 anos</span>
+                                </div>
+                                <i class="uil uil-angle-down skills_arrow"></i>
+                            </div>
+                            <div class="skills_list grid">
+                                <div class="skills_data">
+                                    <div class="skills_titles">
+                                        <h3 class="skills_name">English</h3>
+                                        <span class="skills_number">95%</span>
+                                    </div>
+                                    <div class="skills_bar">
+                                        <span class="skills_percentage skills_english"></span>
+                                    </div>
+                                </div>
+                        
+                                <div class="skills_data">
+                                    <div class="skills_titles">
+                                        <h3 class="skills_name">Spanish</h3>
+                                        <span class="skills_number">100%</span>
+                                    </div>
+                                    <div class="skills_bar">
+                                        <span class="skills_percentage skills_spanish"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>                            
+            </section>
+
+            <!--==================== QUALIFICATION ====================-->
+            <section class="qualification section">
+                <h2 class="section_title">Qualificações</h2>
+                <span class="section_subtitle">Minha jornada</span>
+
+                <div class="qualification_container container">
+                    <div class="qualification_tabs">
+                        <div class="qualification_button button--flex qualification_active" data-target='#education'>
+                            <i class="uil uil-graduation-cap qualification_icon"></i>
+                            Educação
+                        </div>
+                        <div class="qualification_button button--flex" data-target="#work">
+                            <i class="uil uil-briefcase-alt qualification_icon"></i>
+                            Trabalho
+                        </div>
+                    </div>
+                    <div class="qualification_sections">
+                        <!--==================== QUALIFICATION CONTENT 1 ====================-->
+                        <div class="qualification_content qualification_active" data-content id="education">
+                            <!--==================== QUALIFICATION 1 ====================-->
+                            <div class="qualification_data">
+                                <div>
+                                    <h3 class="qualification_title">Análise e Desenvolvimento de Sistemas - FIAP</h3>
+                                    <span class="qualification_subtitle">Brasil - São Paulo</span>
+                                    <div class="qualification_calendar">
+                                        <i class="uil uil-calendar-alt"></i>
+                                        2021 ~ 2023
+                                    </div>
+                                </div>
+                                <div>
+                                    <span class="qualification_rounder"></span>
+                                    <span class="qualification_line"></span>
+                                </div>
+                            </div>
+                            <!--==================== QUALIFICATION 2 ====================-->
+                            <div class="qualification_data">
+                                <div></div>
+                                <div>
+                                    <span class="qualification_rounder"></span>
+                                    <span class="qualification_line"></span>
+                                </div>
+                                <div>
+                                    <h3 class="qualification_title">Formação: Aprenda Java com Orientação a Objetos</h3>
+                                    <span class="qualification_subtitle">Alura - Online Platform</span>
+                                    <div class="qualification_calendar">
+                                        <i class="uil uil-calendar-alt"></i>
+                                        2023
+                                    </div>
+                                </div>
+                            </div>
+                            <!--==================== QUALIFICATION 3 ====================-->
+                            <div class="qualification_data">
+                                <div>
+                                    <h3 class="qualification_title">Formação: A partir do zero: HTML e CSS para projetos web</h3>
+                                    <span class="qualification_subtitle">Alura - Online Platform</span>
+                                    <div class="qualification_calendar">
+                                        <i class="uil uil-calendar-alt"></i>
+                                        2023
+                                    </div>
+                                </div>
+                                <div>
+                                    <span class="qualification_rounder"></span>
+                                    <span class="qualification_line"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <!--==================== QUALIFICATION CONTENT 2 ====================-->
+                        <div class="qualification_content" data-content id="work">
+                            <!--==================== QUALIFICATION 1 ====================-->
+                            <div class="qualification_data">
+                                <div></div>
+                                <div>
+                                    <span class="qualification_rounder"></span>
+                                    <span class="qualification_line"></span>
+                                </div>
+                                <div>
+                                    <h3 class="qualification_title">Analista Computacional</h3>
+                                    <span class="qualification_subtitle">Mercado Eletrônico - Brasil</span>
+                                    <div class="qualification_calendar">
+                                        <i class="uil uil-calendar-alt"></i>
+                                        Atual
+                                    </div>
+                                </div>
+
+                            </div>
+                            <!--==================== QUALIFICATION 2 ====================-->
+                            <div class="qualification_data">
+                                <div>
+                                    <h3 class="qualification_title">Supervisor Trilíngue Sênior</h3>
+                                    <span class="qualification_subtitle">Teleperformance - Brasil</span>
+                                    <div class="qualification_calendar">
+                                        <i class="uil uil-calendar-alt"></i>
+                                        2020 ~ 2022
+                                    </div>
+                                </div>
+                                <div>
+                                    <span class="qualification_rounder"></span>
+                                    <span class="qualification_line"></span>
+                                </div>
+                            </div>
+                            <!--==================== QUALIFICATION 3 ====================-->
+                            <div class="qualification_data">
+                                <div></div>
+                                <div>
+                                    <span class="qualification_rounder"></span>
+                                    <span class="qualification_line"></span>
+                                </div>
+                                <div>
+                                    <h3 class="qualification_title">Analista de Processos</h3>
+                                    <span class="qualification_subtitle">Foundever - Brasil</span>
+                                    <div class="qualification_calendar">
+                                        <i class="uil uil-calendar-alt"></i>
+                                        2019 ~ 2020
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>    
+            </section>
+
+            <!--==================== SERVICES ====================-->
+            <section class="services section" id="services">
+                <h2 class="section_title">Serviços</h2>
+                <span class="section_subtitle"></span>
+
+                <div class="services_container container grid">
+                    <!--==================== SERVICES 1 ====================-->
+                    <div class="services_content">
+                        <div>
+                            <i class="uil uil-web-grid services_icon"></i>
+                            <h3 class="services_title">Front-end: <br>HTML/CSS/React/Js...   </h3>
+                        </div>
+
+                        <span class="button button--flex button--small button--link services_button">
+                            Ver mais
+                            <i class="uil uil-arrow-right button_icon"></i>
+                        </span>
+                        
+                        <div class="services_modal">
+                            <div class="services_modal-content">
+                                <h4 class="services_modal-title">Frontend <br>HTML / CSS / React / Js</h4>
+                                <i class="uil uil-times services_modal-close"></i>
+
+                                <ul class="services_modal-services grid">
+                                    <li class="services_modal-service">
+                                        <i class="uil uil-check-circle services_modal-icon"></i>
+                                        <p>Design responsivo</p>
+                                    </li>
+                                    <li class="services_modal-service">
+                                        <i class="uil uil-check-circle services_modal-icon"></i>
+                                        <p>UX amigável</p>
+                                    </li>
+                                        <li class="services_modal-service">
+                                            <i class="uil uil-check-circle services_modal-icon"></i>
+                                            <p>Páginas e apps intuitivos</p>
+                                        </li>
+                                    <li class="services_modal-service">
+                                        <i class="uil uil-check-circle services_modal-icon"></i>
+                                        <p>Clean code</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!--==================== SERVICES 2 ====================-->
+                    <div class="services_content">
+                        <div>
+                            <i class="uil uil-cloud services_icon"></i>
+                            <h3 class="services_title">Back-end: <br>Java / IntellIJ / Spring...</h3>
+                        </div>
+                    
+                        <span class="button button--flex button--small button--link services_button">
+                            Ver mais
+                            <i class="uil uil-arrow-right button_icon"></i>
+                        </span>
+                    
+                        <div class="services_modal">
+                            <div class="services_modal-content">
+                                <h4 class="services_modal-title">Back-end Java</h4>
+                                <i class="uil uil-times services_modal-close"></i>
+                    
+                                <ul class="services_modal-services grid">
+                                    <li class="services_modal-service">
+                                        <i class="uil uil-check-circle services_modal-icon"></i>
+                                        <p>TDD | BDD | DDD</p>
+                                    </li>
+                                    <li class="services_modal-service">
+                                        <i class="uil uil-check-circle services_modal-icon"></i>
+                                        <p>Design Patterns</p>
+                                    </li>
+                                    <li class="services_modal-service">
+                                        <i class="uil uil-check-circle services_modal-icon"></i>
+                                        <p>Kubernets</p>
+                                    </li>
+                                    <li class="services_modal-service">
+                                        <i class="uil uil-check-circle services_modal-icon"></i>
+                                        <p>Docker</p>
+                                    </li>
+                                    <li class="services_modal-service">
+                                        <i class="uil uil-check-circle services_modal-icon"></i>
+                                        <p>JPA</p>
+                                    </li>
+                                    <li class="services_modal-service">
+                                        <i class="uil uil-check-circle services_modal-icon"></i>
+                                        <p>Maven</p>
+                                    </li>
+                                    <li class="services_modal-service">
+                                        <i class="uil uil-check-circle services_modal-icon"></i>
+                                        <p>SOLID</p>
+                                    </li>
+                                    <li class="services_modal-service">
+                                        <i class="uil uil-check-circle services_modal-icon"></i>
+                                        <p>Spring Framework</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!--==================== SERVICES 3 
+                    <div class="services_content">
+                        <div>
+                            <i class="uil uil-arrow services_icon"></i>
+                            <h3 class="services_title">Frontend <br> Developer</h3>
+                        </div>
+                    
+                        <span class="button button--flex button--small button--link services_button">
+                            Ver mais
+                            <i class="uil uil-arrow-right button_icon"></i>
+                        </span>
+                    
+                        <div class="services_modal">
+                            <div class="services_modal-content">
+                                <h4 class="services_modal-title">Frontend <br> Developer</h4>
+                                <i class="uil uil-times services_modal-close"></i>
+                    
+                                <ul class="services_modal-services grid">
+                                    <li class="services_modal-service">
+                                        <i class="uil uil-check-circle services_modal-icon"></i>
+                                        <p>Organização de layout</p>
+                                    </li>
+                                    <li class="services_modal-service">
+                                        <i class="uil uil-check-circle services_modal-icon"></i>
+                                        <p>Optimização de websites e interfaces</p>
+                                    </li>
+                                    <li class="services_modal-service">
+                                        <i class="uil uil-check-circle services_modal-icon"></i>
+                                        <p>Design Responsivo</p>
+                                    </li>
+                                    <li class="services_modal-service">
+                                        <i class="uil uil-check-circle services_modal-icon"></i>
+                                        <p>Assegurar a velocidade e estabilidade do Website</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>====================-->
+                </div>
+            </section>
+
+            <!--==================== PORTFOLIO ====================-->
+
+            <section class="portfolio section" id="portfolio">
+                <h2 class="section_title">Portfolio</h2>
+                <span class="section_subtitle">Meus projetos e conquistas mais recentes</span>
+
+                <div class="portfolio_container container swiper-container">
+                    <div class="swiper-wrapper">
+                        <!--==================== PORTFOLIO 1 ====================-->
+                        <div class="portfolio_content grid swiper-slide">
+                            <img src="assets/img/portfolio0.png" alt="" class="portfolio_img">
+
+                            <div class="portfolio_data">
+                                <h3 class="portfolio_title">Earthfund</h3>
+                                <p class="portfolio_description">Visando um futuro mais sustentável e colaborativo a Earthfund, auxiliará na arrecadação de fundos para projetos idealizados por
+                                     moradores de comunidades carentes ou doações para ongs já existentes!</p>
+                            <a download="" href="https://earthfund.vercel.app/" class="button button--flex button--small portfolio_button">
+                                Veja mais!
+                                <i class="uil uil-arrow-right button_icon"></i>
+                            </a>
+                            </div>
+                        </div>
+                        <!--==================== PORTFOLIO 1 ====================-->
+                        <div class="portfolio_content grid swiper-slide">
+                            <img src="assets/img/portfolio1.jpg" alt="" class="portfolio_img">
+
+                            <div class="portfolio_data">
+                                <h3 class="portfolio_title">A Better World Challange - Bayer</h3>
+                                <p class="portfolio_description">Com a proposta de criar um sistema de monitoramento de Dengue, Zika e Malária no Brasil. utilizamos a linguagem de programação Java para concluir o desafio! </p>
+                            <a download="" href="assets/pdf/BWCC.pdf" class="button button--flex button--small portfolio_button">
+                                Certificado!
+                                <i class="uil uil-arrow-right button_icon"></i>
+                            </a>
+                            </div>
+                        </div>
+                        <!--==================== PORTFOLIO 2 ====================-->
+                        <div class="portfolio_content grid swiper-slide">
+                            <img src="assets/img/portfolio2.png" alt="" class="portfolio_img">
+                        
+                            <div class="portfolio_data">
+                                <h3 class="portfolio_title">Alura!</h3>
+                                <p class="portfolio_description">Com a ajuda da Alura, estou aprimorando meus conhecimentos em programação para me tornar um profissional ainda mais capacitado!
+                                </p>
+                                <a href="https://cursos.alura.com.br/user/otaviorosiano" target="_blank" class="button button--flex button--small portfolio_button">
+                                    Conferir
+                                    <i class="uil uil-arrow-right button_icon"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <!--==================== PORTFOLIO 3 ====================-->
+                        <div class="portfolio_content grid swiper-slide">
+                            <img src="assets/img/portfolio3.png" alt="" class="portfolio_img">
+                        
+                            <div class="portfolio_data">
+                                <h3 class="portfolio_title">Formado na FIAP!</h3>
+                                <p class="portfolio_description">Tendo dominado conceitos de lógica da programação, metodologias ágeis, UML, programação orientada a objeto, etc... 
+                                </p>
+                                <a href="https://www2.fiap.com.br/updown/DocumentosAssinados/bde2acf5-20d2-4998-9135-f25f93fa194a.pdf" target="_blank" class="button button--flex button--small portfolio_button">
+                                    Análise e Desing Web
+                                    <i class="uil uil-arrow-right button_icon"></i>
+                                </a>
+                                <a href="https://www2.fiap.com.br/updown/DocumentosAssinados/92fad3b0-56b7-4ad3-a239-25916c7d57a5.pdf" target="_blank" class="button button--flex button--small portfolio_button">
+                                    Análise de Sistemas e Prototipagem Web
+                                    <i class="uil uil-arrow-right button_icon"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                        <!-- Add Pagination -->
+                        <div class="swiper-button-next">
+                            <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+
+                        </div>
+                        <div class="swiper-button-prev">
+                            <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+                        </div>
+
+                        <!-- Add Pagination-->
+                        <div class="swiper-container"></div>
+                </div>
+            </section>
+
+            <!--==================== PROJECT IN MIND 
+            <section class="project section">
+                <div class="project_bg">
+                    <div class="project_container container grid">
+                        <div class="project_data">
+                            <h2 class="project_title">Oportunidade de job?</h2>
+                            <p class="project_description">Adoraria conhecer mais sobre sua empresa!</p>
+                            <a href="#contact" class="button button--flex button--white">Entre em contato
+                                <i class="uil uil-message project_icon button_icon"></i>
+                            </a>
+                        </div>
+                        <img src="./assets/img/project.png" alt="" class="project_img">
+                    </div>
+                </div>
+
+            </section>====================-->
+
+            <!--==================== TESTIMONIAL ====================-->
+            <section class="testimonial section">
+                <h2 class="section_title">Feedback's</h2>
+                <span class="section_subtitle"> O que as pessoas que já trabalharam comigo dizem? Ajude-me a preencher com a sua opnião!</span>
+
+                <div class="testimonial_container container swiper-container">
+                    <div class="swiper-wrapper">
+                        <!--==================== TESTIMONIAL 1 ====================-->
+                        <div class="testimonial_content swiper-slide">
+                            <div class="testimonial_data">
+                                <div class="testimonial_header">
+                                    <img src="./assets/img/testimonial1.jpg" alt="" class="testimonial_img">
+
+                                    <div>
+                                        <h3 class="testimonial_name">Fernando de Moraes Sarmento Filho</h3>
+                                        <span class="testimonial_colleague">CX Operations Manager</span>
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <i class="uil uil-star testimonial_icon-star"></i>
+                                    <i class="uil uil-star testimonial_icon-star"></i>
+                                    <i class="uil uil-star testimonial_icon-star"></i>
+                                    <i class="uil uil-star testimonial_icon-star"></i>
+                                    <i class="uil uil-star testimonial_icon-star"></i>
+                                </div>
+                            </div>
+
+                            <p class="testimonial_description">"Otávio é um cara muito inteligente e com bastante visão de negócio, sabe gestionar pessoas habilmente e conduzir projetos importantes, tive a oportunidade de trabalhar como seu coordenador e desenvolvê-lo foi uma troca e uma ótima experiência."
+                            </p>
+                        </div>
+                        <!--==================== TESTIMONIAL 2 ====================-->
+                        <div class="testimonial_content swiper-slide">
+                            <div class="testimonial_data">
+                                <div class="testimonial_header">
+                                    <img src="./assets/img/testimonial2.jpg" alt="" class="testimonial_img">
+                        
+                                    <div>
+                                        <h3 class="testimonial_name">Carolina Alves da Silva</h3>
+                                        <span class="testimonial_colleague">Bilingual Operations Supervisor</span>
+                                    </div>
+                                </div>
+                        
+                                <div>
+                                    <i class="uil uil-star testimonial_icon-star"></i>
+                                    <i class="uil uil-star testimonial_icon-star"></i>
+                                    <i class="uil uil-star testimonial_icon-star"></i>
+                                    <i class="uil uil-star testimonial_icon-star"></i>
+                                    <i class="uil uil-star testimonial_icon-star"></i>
+                                </div>
+                            </div>
+                        
+                            <p class="testimonial_description">"Você me recebeu bem, se dispôs a me ajudar ensinando alguns processos. Sempre te vi como um bom gestor, dava pra perceber como sua equipe gostava de você, super bem engajados. Sempre aceitou muito bem feedbacks e toda vez que se propôs a fazer algo, foi até o final."
+                            </p>
+                        </div>
+                        <!--==================== TESTIMONIAL 3 ====================-->
+                        <!-- <div class="testimonial_content swiper-slide">
+                            <div class="testimonial_data">
+                                <div class="testimonial_header">
+                                    <img src="./assets/img/testimonial3.jpg" alt="" class="testimonial_img">
+                        
+                                    <div>
+                                        <h3 class="testimonial_name">Exemplo</h3>
+                                        <span class="testimonial_colleague">Colleague</span>
+                                    </div>
+                                </div>
+                        
+                                <div>
+                                    <i class="uil uil-star testimonial_icon-star"></i>
+                                    <i class="uil uil-star testimonial_icon-star"></i>
+                                    <i class="uil uil-star testimonial_icon-star"></i>
+                                    <i class="uil uil-star testimonial_icon-star"></i>
+                                    <i class="uil uil-star testimonial_icon-star"></i>
+                                </div>
+                            </div>
+                        
+                            <p class="testimonial_description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde aliquid natus enim eos nemo, magni officiis veritatis et veniam earum?
+                            </p>
+                        </div>-->
+                    </div>
+
+                    <div class="swiper-container swiper-pagination-testimonial"></div>
+                </div>
+            </section>
+
+            <!--==================== CONTACT ME ====================-->
+            <section class="contact section" id="contact">
+                <h2 class="section_title">Entre em contato</h2>
+                <span class="section_subtitle">Vamos conversar</span>
+
+                <div class="contact_container container grid">
+                    <div>
+                        <div class="contact_information">
+                            <i class="uil uil-phone contact_icon"></i>
+                            <div>
+                                <h3 class="contact_title">Telefone Pessoal</h3>
+                                <span class="contact_subtitle">+55 (11)97675-5543</span>
+                            </div>
+                        </div>
+                        <div class="contact_information">
+                            <i class="uil uil-envelope contact_icon"></i>
+                            <div>
+                                <h3 class="contact_title">Email</h3>
+                                <span class="contact_subtitle">rosianocontato@gmail.com</span>
+                            </div>
+                        </div>
+                        <div class="contact_information">
+                            <i class="uil uil-map contact_icon"></i>
+                            <div>
+                                <h3 class="contact_title">Localização</h3>
+                                <span class="contact_subtitle">São Paulo - Brasil</span>
+                            </div>
+                        </div>
+                    </div>
+                    <form action="https://formspree.io/f/xknyjagq" method="POST" class="contact_form grid">
+                        <div class="contact_inputs grid">
+                            <div class="contact_content">
+                                <label for="" class="contact_label">Nome</label>
+                                <input type="text" class="contact_input" >
+                            </div>
+                            <div class="contact_content">
+                                <label for="" class="contact_label">Email
+                                    <input type="email" class="contact_input" name="_replyto">
+                                </label>
+                                </div>
+                            </div>
+                        <div class="contact_content">
+                            <label for="" class="contact_label">Projeto</label>
+                            <input type="text" class="contact_input">
+                        </div>
+                        <div class="contact_content">
+                            <label for="" class="contact_label">Mensagem
+                                <textarea name="message" id="" cols="0" rows="7" class="contact_input"></textarea>
+                            </label>
+                        </div>
+                        <div>
+                            <button type="submit" class="button button--flex">
+                                Enviar!
+                                <i class="uil uil-message button_icon"></i>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </section>
+        </main>
+
+        <!--==================== FOOTER ====================-->
+        <footer class="footer">
+            <div class="footer_bg">
+                <div class="footer_container container grid">
+                    <div>
+                        <h1 class="footer_title">Otavio</h1>
+                        <span class="footer_subtitle">Desenvolvedor de Sistemas</span>
+                    </div>
+                    <ul class="footer_links">
+                        <li>
+                            <a href="#services" class="footer_link">Serviços</a>
+                        </li>
+                        <li>
+                            <a href="#portfolio" class="footer_link">Portfolio</a>
+                        </li>
+                        <li>
+                            <a href="#contact" class="footer_link">Contato</a>
+                        </li>
+                    </ul>
+
+                    <div class="footer_socials">
+                        <a href="https://www.facebook.com/hiimotto" target="_blank" class="footer_social">
+                            <i class="uil uil-facebook-f"></i>
+                        </a>
+                        <a href="https://www.instagram.com/otto_andreas/" target="_blank" class="footer_social">
+                            <i class="uil uil-instagram"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/otavio-andreas-rosiano-b12561165/" target="_blank" class="footer_social">
+                            <i class="uil uil-linkedin-alt"></i>
+                        </a>
+                    </div>
+                </div>
+
+                
+            </div>
+            
+        </footer>
+        
+        <!--==================== SCROLL TOP ====================-->
+        <a href="#" class="scrollup" id="scroll-up">
+            <i class="uil uil-arrow-up scrollup_icon"></i>
+        </a>
+
+        <!--==================== SWIPER JS ====================-->
+        <script src="./assets/js/swiper-bundle.min.js"></script>
+
+        <!--==================== MAIN JS ====================-->
+        <script src="./assets/js/main.js"></script>
+    </body>
+</html>
