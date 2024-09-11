@@ -930,16 +930,18 @@ img {
 /*==================== FOOTER ====================*/
 
 .footer {
-  padding-top: 2rem;
+  display: flex;
 }
 
 .footer_container {
   row-gap: 3.5rem;
+  align-items: center;
 }
 
 .footer_bg {
   background-color: var(--first-color);
   padding: 2rem 0 3rem;
+  width: 100vw;
 }
 
 .footer_title {
