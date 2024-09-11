@@ -1052,6 +1052,18 @@ img {
     font-size: var(--normal-font-size);
   }
 
+  .home_data{
+    text-align: justify;
+  }
+
+  .home_title{
+    text-align: left;
+  }
+
+  .button.button--flex.contato_button{
+    font-size: 1.3em;
+  }
+
   .qualification_data {
     gap: 0.5rem;
   }
